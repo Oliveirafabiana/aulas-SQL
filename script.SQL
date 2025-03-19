@@ -1,6 +1,3 @@
-SENAC MATUTINO
-
-
 
 CREATE DATABASE escola;
 
@@ -15,9 +12,7 @@ CREATE TABLE alunos(
  nota FLOAT   
 );
 
-
 INSERT INTO `alunos`(`id`, `nome`, `email`, `data_nascimento`, `curso`, `nota`) VALUES ('1','Fabi','fabi@email','2007-06-06','Desenvolvimento de Sistema','10')
-
 
 SELECT * FROM Alunos;
 
@@ -32,3 +27,5 @@ SELECT COUNT(*) AS total_alunos FROM alunos;
 DELETE FROM alunos WHERE id = 3;
 
 DELETE FROM alunos;
+
+DROP DATABASE escola;
